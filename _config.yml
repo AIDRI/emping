@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Let's try coding...
 baseurl: "/emping" # the subpath of your site, e.g. /blog /emping
 url: "https://bekti.net" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: AIDRI_
+github_username:  AIDRI
 GoogleAnalytics: UA-71848049-1
 
 twitter:
