@@ -9,6 +9,6 @@ In a few words, I am a young French "developer" who is passionate about Artifici
 ---
 
 ## My social networks
-Github : <a href="https://github.com/AIDRI" target="_blank">AIDRI</a>
-Twitter : <a href="https://twitter.com/AIDRI_" target="_blank">AIDRI_</a>
-Discord : Adrien I#4592
+Github : <a href="https://github.com/AIDRI" target="_blank">AIDRI</a>  
+Twitter : <a href="https://twitter.com/AIDRI_" target="_blank">AIDRI_</a>  
+Discord : Adrien I#4592  
