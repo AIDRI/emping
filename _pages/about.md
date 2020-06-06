@@ -5,20 +5,19 @@ permalink: /about/
 avatar: true
 navigation: true
 ---
-This is the [emping](https://github.com/rmsubekti/emping) Jekyll theme based on the default( base ) jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Who I am...
+My name is Adrien and I live in France. I've been passionate about Artificial Intelligence since I was 12 years old, but I've been really involved in it since 2019 (when I was 14). 
+I first did training courses on machine learning, then on deep learning. I quickly realized that I preferred everything related to computer vision. Recently, I started to learn reinforcement learning.
 
 ---
 
-### Site Last Generated : {{ site.time | date: "%-d %B %Y"  }}
+### The MOOCs I've been following
 
-Built with [Jekyll](http://jekyllrb.com/){:target="_blank"}.
+1. <a href="https://www.coursera.org/learn/machine-learning?" target="_blank">Machine Learning - Andrew Ng</a>
+2. <a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning" target="_blank">Neural Network and DeepLearning - Andrew Ng</a> (free auditor)
+3. <a href="https://www.coursera.org/learn/deep-neural-network" target="_blank">Improving Deep Neural Network - Andrew Ng</a> (free auditor)
+4. <a href="https://www.coursera.org/learn/convolutional-neural-networks" target="_blank">Convolutional Neural Network - Andrew Ng</a> (free auditor)
+5. <a href="https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months" target="_blank">Learn Machine Learning</a> (mainly for mathematics courses)
 
-Hosted on [Github Pages](https://pages.github.com/){:target="_blank"}.
+Now : <a href="https://www.coursetalk.com/providers/udacity/courses/machine-learning-reinforcement-learning" target="_blank">Reinforcement Learning</a>
