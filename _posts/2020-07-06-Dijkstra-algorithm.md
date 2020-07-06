@@ -31,4 +31,4 @@ For each $$x \in S$$ do
 
 $$\delta_s(s_0) \leftarrow 0$$  
 $$X \leftarrow S$$  
-$$E \leftarrow \null$$
+$$E \leftarrow \emptyset$$
