@@ -57,10 +57,6 @@ First, we are going to select the vertice with the minimum weight to move it int
 Second, we are going to review all $$y$$, $$y$$ being the successors of $$x$$.  
 Third, if the weight of $$s_0$$ is greater than the previously established path plus the distance between $$x$$ and $$y$$, then we are define the temporary minimum distance between $$s_0$$ and $$y$$.  
 
-### 2. Vizualization
-
-![est](emping/assets/1_3aibaGt1-zimnwreliwX0A.gif)
-
 ### 3. Implementation in Python
 
 After learning this algorithm, I am doing the problem 20C on [codeforce](https://codeforces.com/).  
