@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dijkstra algorithm"
-date:   2020-06-18 13:07:00 -0200
+date:   2020-07-07 00:08:00 -0200
 categories: algorithm
 ---
 
