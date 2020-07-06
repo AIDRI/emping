@@ -59,7 +59,7 @@ Third, if the weight of $$s_0$$ is greater than the previously established path 
 
 ### Vizualization
 
-[Dijkstra gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgfycat.com%2Fdopeyartisticfinnishspitz&psig=AOvVaw1uiBOKQ4n1Pj0xQnLcyBLd&ust=1594158378039000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPiEkvHMueoCFQAAAAAdAAAAABAe)
+[Dijkstra gif](https://gfycat.com/dopeyartisticfinnishspitz)
 
 ### Implementation in Python
 
