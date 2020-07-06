@@ -13,7 +13,7 @@ The Dijkstra Algorithm is an algorithm invented by the Dutch computer scientist 
 
 ### 2. Algorithm
 
-#### Let's define some useful therms :  
+**Let's define some useful therms :**  
 $$S$$ is the list of the vertices of the graph  
 $$s_0$$ is the original vertice  
 $$l(x,y)$$ is the weight of the edge (between two vertices)  
