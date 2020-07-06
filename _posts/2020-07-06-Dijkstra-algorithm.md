@@ -53,6 +53,6 @@ While $$X \neq \emptyset$$ do
 End while  
 
 After initializing my algorithm, we need to process each vertice in $$X$$.  
-First, we are going to select the vertice with the minimum weight to move it into the $$E$$ list, where are the already process vertices.
+First, we are going to select the vertice with the minimum weight to move it into the $$E$$ list, where are the already process vertices.  
 Second, we are going to review all $$y$$, $$y$$ being the successors of $$x$$.  
 Third, if the weight of $$s_0$$ is greater than the previously established path plus the distance between $$x$$ and $$y$$, then we are define the temporary minimum distance between $$s_0$$ and $$y$$.  
