@@ -27,6 +27,8 @@ $$E$$ is the list of vertices already processed
 **Initialization**  
 
 For each $$x \in S$$ do  
-&nbsp;&nbsp;&nbsp;&nbsp;$$\delta_s(x)$$ <-- $$\infty$$  
+&nbsp;&nbsp;&nbsp;&nbsp;$$\delta_s(x) \leftarrow \infty$$  
 
-$$\delta_s(s_0)$$ <-- $$0$$
+$$\delta_s(s_0) \leftarrow 0$$  
+$$X \leftarrow S$$  
+$$E \leftarrow \null$$
