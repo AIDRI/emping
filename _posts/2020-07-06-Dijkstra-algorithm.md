@@ -18,7 +18,7 @@ $$S$$ is the list of the vertices of the graph
 $$s_0$$ is the original vertice  
 $$l(x,y)$$ is the weight of the edge (between two vertices)  
 $$\delta_s(x)$$ is the length between the vertice $$s_0$$ and the vertice $$x$$  
-$$V^+ (x)$$ is the list of successors to vertice $$x$$
-$$p(x)$$ is the predecessor of the vertice $$x$$
-$$X$$ is the list of vertices still to be processed
-$$E$$ is the list of vertices already processed
+$$V^+ (x)$$ is the list of successors to vertice $$x$$  
+$$p(x)$$ is the predecessor of the vertice $$x$$  
+$$X$$ is the list of vertices still to be processed  
+$$E$$ is the list of vertices already processed  
