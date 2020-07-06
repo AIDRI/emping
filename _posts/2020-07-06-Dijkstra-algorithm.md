@@ -35,12 +35,12 @@ $$E \leftarrow \emptyset$$
 
 
 So, let's quickly explain this script  
-The principle of the loop is to assign each peak a weight that will be equal to $$+\infty$$.  
-Afterwards, we give the program the number of the original sumet, then we define two lists: one to store the processed vertices, one to store the unprocessed vertices.  
+The principle of the loop is to assign each vertice a weight that will be equal to $$+\infty$$.  
+Afterwards, we give the program the number of the original vertice, then we define two lists: one to store the processed vertices, one to store the unprocessed vertices.  
 
 **Processing**  
 
-While $$X \neq \emptyset$$ do
+While $$X \neq \emptyset$$ do  
 &nbsp;&nbsp;&nbsp;&nbsp;Select in $$X$$ the vertice $$x$$ with the minimum $$\delta_s(x)$$  
 &nbsp;&nbsp;&nbsp;&nbsp;Delete the vertice $$x$$ in $$X$$  
 &nbsp;&nbsp;&nbsp;&nbsp;Add $$x$$ to $$E$$  
@@ -51,3 +51,5 @@ While $$X \neq \emptyset$$ do
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End if  
 &nbsp;&nbsp;&nbsp;&nbsp;End for  
 End while  
+
+After initializing my algorithm, we need to process each vertice in $$X$$
