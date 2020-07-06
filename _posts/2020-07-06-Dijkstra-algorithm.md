@@ -44,7 +44,7 @@ While $$X \neq \emptyset$$ do
 &nbsp;&nbsp;&nbsp;&nbsp;Select in $$X$$ the vertice $$x$$ with the minimum $$\delta_s(x)$$  
 &nbsp;&nbsp;&nbsp;&nbsp;Delete the vertice $$x$$ in $$X$$  
 &nbsp;&nbsp;&nbsp;&nbsp;Add $$x$$ to $$E$$  
-&nbsp;&nbsp;&nbsp;&nbsp;For each $$y \in V^+(x) \cap X$$ do
+&nbsp;&nbsp;&nbsp;&nbsp;For each $$y \in V^+(x) \cap X$$ do  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If $$\delta_s(y) \geq \delta_s(x) + l(x,y)$$ then  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\delta_s(y) \leftarrow \delta_s(x) + l(x,y)$$  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$p(y) \leftarrow x$$  
