@@ -33,8 +33,8 @@ $$\delta_s(s_0) \leftarrow 0$$
 $$X \leftarrow S$$  
 $$E \leftarrow \emptyset$$
 
-```
+
 so, let's quickly explain this script  
 The principle of the loop is to assign each peak a weight that will be equal to $$+\infty$$.  
 Afterwards, we give the program the number of the original sumet, then we define two lists: one to store the processed vertices, one to store the unprocessed vertices.
-```
+
