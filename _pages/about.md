@@ -20,4 +20,3 @@ I first did training courses on machine learning, then on deep learning. I quick
 4. <a href="https://www.coursera.org/learn/convolutional-neural-networks" target="_blank">Convolutional Neural Network - Andrew Ng</a> (free auditor)
 5. <a href="https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months" target="_blank">Learn Machine Learning</a> (mainly for mathematics courses)
 
-Now : <a href="https://www.coursetalk.com/providers/udacity/courses/machine-learning-reinforcement-learning" target="_blank">Reinforcement Learning</a>
