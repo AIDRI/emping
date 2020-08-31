@@ -9,8 +9,6 @@ categories: algorithm
 
 The Dijkstra Algorithm is an algorithm invented by the Dutch computer scientist Edsger Dijkstra in 1959 to solve the shortest path problem. It belongs to the field of graph theory.
 
-<image src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" blank="">
-
 ### 2. Algorithm
 
 **Let's define some useful therms :**  
