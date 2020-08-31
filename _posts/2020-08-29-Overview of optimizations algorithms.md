@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimization algorithms"
+title:  "Overview of optimization algorithms"
 date:   2020-08-29 00:08:00 -0200
 categories: algorithm
 ---
