@@ -72,19 +72,15 @@ So, it's important to measure the convergence rate. The formula $J(\theta) - min
 
 #### 1.3.3 Algorithm with momentum
 
-```
-Define ϵ, define α ∈ [0;1)
-Define t = 0, define e
+$Define\ ϵ,\ define\ \alpha \in [0;1)$  
 
-Initialize θ
-Initialize v
+$Initialize\ θ$  
+$Initialize\ v$  
 
-while θ not converged:
-    Create a minibatch of m values from training set [x_1, ..., x_m] and labels [y_1, ..., y_m]
-    Compute the momentum formula : v ← αv − ϵ∇_θ(1/m ∑^m_i=1 L(f(x^(i);θ),y^(i)))
-    Update θ
-    t += 1
-```
+$while\ \theta\ not\ converged:$  
+$\ \ \ \ Create\ a\ minibatch\ of\ m\ values\ from\ training\ set\ [x_1,\ ...,\ x_m]\ and\ labels\ [y_1,\ ...,\ y_m]$  
+$\ \ \ \ Compute\ the\ momentum\ formula\ : v ← \alpha v − \epsilon \nabla_{\theta}(\frac{1}{m} \sum_{i = 1}^{m} L(f(x^{(i)};\theta_n),y^{(i)}))$
+$\ \ \ \ Update\ \theta$
 
 #### 1.3.4 Explanations  
 
@@ -173,26 +169,25 @@ $$\theta_{t+1} = \theta_t - \frac{\eta \cdot \hat{m_t}}{\sqrt{\hat{v_t}} + \epsi
 
 #### 2.2.2 Algorithm
 
-```
-Define η (êta)
-Define β_1 , β_2 ∈ [0, 1)
-Initialize θ
+$Define\ \eta$  
+$Define\ \beta_1,\ \beta_2 \in [0,\ 1)$  
+$Initialize\ \theta$  
 
-m_0 = 0
-v_0 = 0
-t = 0
+$m_0 = 0$  
+$v_0 = 0$  
+$t = 0$  
 
-while θ_t not converged:
-    t = t + 1
-    g_t = ∇_θ f_t(θ_{t-1})
-    m_t = (1 − β_1)g_t + β_1 m_{t−1}
-    v_t = (1 − β_2)g_t^2 + β_2 v_{t−1}
+$while\ θ_t\ not\ converged:$  
+$\ \ \ \ t = t + 1$  
+$\ \ \ \ g_t = \nabla_\theta f_t(\theta_{t-1})$  
+$\ \ \ \ m_t = (1 − \beta_1)g_t + \beta_1 m_{t−1}$  
+$\ \ \ \ v_t = (1 − \beta_2)g_t^2 + \beta_2 v_{t−1}$  
     
-    ^m_t = m_t / (1 - β_1^t)
-    ^v_t = v_t / (1 - β_2^t)
+$\ \ \ \ \hat{m_t} = m_t / (1 - \beta_1^t)$  
+$\ \ \ \ \hat{v_t} = v_t / (1 - \beta_2^t)$
     
-    θ_{t+1} = θ_t - (η * ^m_t) / (sqrt(^v_t) + epsilon) 
-```
+$\ \ \ \ \theta_{t+1} = \theta_t - \frac{\eta \cdot \hat{m_t}}{\sqrt{\hat{v_t}} + \epsilon}$  
+
 #### 2.2.3 Explanations
 
 First, we need to initialize the 1st and the 2nd moment. Like the other algorithms, we must first calculate the gradient, using the basic formula, which I have simplified. Then we have to update the first and the second partial moment, to finally compute the bias-corrected m and v.
