@@ -4,7 +4,7 @@ title:  "Dijkstra algorithm"
 date:   2020-07-07 00:08:00 -0200
 categories: algorithm
 ---
-
+.
 <img src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" blank="">
 
 ### 1. History
