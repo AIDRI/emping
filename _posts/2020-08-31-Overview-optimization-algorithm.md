@@ -194,7 +194,11 @@ First, we need to initialize the 1st and the 2nd moment. Like the other algorith
 Now, we can appli a global update to our parameters.
 We just applied the mathematical aspect.
 
-## 3 Conclusion
+## 3 Vizualisation
+
+<img src="https://mlfromscratch.com/content/images/2019/12/saddle.gif" />
+
+## 4 Conclusion
     
 So we studied two of the most popular algorithms: SGD and Adam. These algorithms allowed us to discover notions such as momentum, which was very useful to make the SGD algorithm faster, but also to reduce the variance of this algorithm. Through the Adam algorithm, we discovered what the Adaptive Learning Rate was. This algorithm, widely used by AdaGrad and RMSProp, allows us to change the learning rate at each step. We also discovered what the Running Average was and what it allowed. All these algorithms allowed us to better understand the optimization algorithm Adam. 
 
