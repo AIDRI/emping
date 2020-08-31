@@ -101,7 +101,7 @@ $while\ \theta not\ converged:$
 $\ \ \ \ Create\ a\ minibatch\ of\ m\ values\ from\ training\ set\ [x_1,\ ...,\ x_m]\ and\ labels\ [y_1,\ ...,\ y_m]$  
 $\ \ \ \ Compute\ \hat \theta \leftarrow \theta + \alpha v$
 $\ \ \ \ Compute\ the\ momentum\ formula\ : v ← \alpha v − \epsilon \nabla_{\hat \theta}(\frac{1}{m} \sum_{i = 1}^{m} L(f(x^{(i)};\hat \theta_n),y^{(i)}))$  
-$\ \ \ \ Update \theta$
+$\ \ \ \ Update\ \theta$
 
 #### 1.3.6 Explanations 
 
