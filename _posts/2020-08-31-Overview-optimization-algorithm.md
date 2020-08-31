@@ -200,6 +200,8 @@ We just applied the mathematical aspect.
 
 _Cost functiun evolution between AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very useful for us)._
 
+<img src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" blank="">
+
 ## 4 Conclusion
     
 So we studied two of the most popular algorithms: SGD and Adam. These algorithms allowed us to discover notions such as momentum, which was very useful to make the SGD algorithm faster, but also to reduce the variance of this algorithm. Through the Adam algorithm, we discovered what the Adaptive Learning Rate was. This algorithm, widely used by AdaGrad and RMSProp, allows us to change the learning rate at each step. We also discovered what the Running Average was and what it allowed. All these algorithms allowed us to better understand the optimization algorithm Adam. 
