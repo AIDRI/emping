@@ -200,7 +200,7 @@ We just applied the mathematical aspect.
     
     
     
-_Cost functiun evolution between AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very useful for us).._
+_Cost functiun evolution between AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very useful for us)_  
 
 ## 4 Conclusion
     
