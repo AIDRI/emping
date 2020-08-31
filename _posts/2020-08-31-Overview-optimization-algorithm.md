@@ -196,7 +196,7 @@ We just applied the mathematical aspect.
 
 ## 3 Vizualisation
 
-<image align="left" width="600" height="600" src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png">  
+<div style="text-align:center"><image src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png" /></div>
 
 ## 4 Conclusion
     
