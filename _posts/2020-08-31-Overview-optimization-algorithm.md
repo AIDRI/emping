@@ -196,7 +196,7 @@ We just applied the mathematical aspect.
 
 ## 3 Vizualisation
 
-<img src="https://mlfromscratch.com/content/images/2019/12/saddle.gif" />
+<img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png" />
 
 ## 4 Conclusion
     
