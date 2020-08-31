@@ -207,7 +207,7 @@ We just applied the mathematical aspect.
 
 ## 4 Vizualization  
 
-![](https://shaoanlu.files.wordpress.com/2017/05/val_acc.png)
+![test](https://shaoanlu.files.wordpress.com/2017/05/val_acc.png)
 
 _Loss of RMSProp vs Adam vs SGD vs SGD with momentum vs SGD with Nesterov on 300 epochs, nadam is not very interessant_.
 
