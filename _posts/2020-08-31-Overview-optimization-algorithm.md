@@ -197,9 +197,9 @@ We just applied the mathematical aspect.
 ## 3 Vizualisation
 
 <image src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png">  
-    
-    
-    
+
+$\\$  
+$\\$  
 _Cost functiun evolution between AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very useful for us)_  
 
 ## 4 Conclusion
