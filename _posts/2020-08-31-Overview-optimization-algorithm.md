@@ -196,7 +196,7 @@ We just applied the mathematical aspect.
 
 ## 3 Vizualisation
 
-![](opti.jpg)
+![img](opti.jpg)
 
 _Cost functiun evolution between AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very useful for us)._
 
