@@ -53,16 +53,14 @@ $$ v \leftarrow \alpha v - \epsilon \nabla_{\theta_{n}} [\left( \frac{1}{m} \sum
 
 #### 1.3.1 Algorithm without momentum
 
-```
-Define ϵ
-Define t = 0, define e
-Initialize θ
+$Define\ \epsilon$  
+$Define\ t = 0,\ define\ e$  
+$Initialize\ \theta$
 
-while θ not converged:
-    Create a minibatch of m values from training set [x_1, ..., x_m] and labels [y_1, ..., y_m]
-    Commpute the gradient formula without momentum : g ← +1/m ∇θ ∑_i L(f(x^(i); θ), y^(i))
-    Update θ = θ - ϵg
-```  
+$while\ \theta\ not\ converged:$  
+$\ \ \ \ Create\ a\ minibatch\ of\ m\ values\ from\ training\ set\ [x_1,\ ...,\ x_m]\ and\ labels\ [y_1,\ ...,\ y_m]$  
+$\ \ \ \ Commpute\ the\ gradient\ formula\ without\ momentum\ :\ g ← + \frac{1}{m} \nabla \theta \sum_i L(f(x^{(i)}; θ), y^{(i)})$  
+$\ \ \ \ Update\ \theta = \theta - \epsilon g$
 
 #### 1.3.2 Explanations
 
