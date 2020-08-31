@@ -58,7 +58,7 @@ Define ϵ
 Define t = 0, define e
 Initialize θ
 
-while t <= e:
+while θ not converged:
     Create a minibatch of m values from training set [x_1, ..., x_m] and labels [y_1, ..., y_m]
     Commpute the gradient formula without momentum : g ← +1/m ∇θ ∑_i L(f(x^(i); θ), y^(i))
     Update θ = θ - ϵg
@@ -81,9 +81,9 @@ Define t = 0, define e
 Initialize θ
 Initialize v
 
-while t <= e:
+while θ not converged:
     Create a minibatch of m values from training set [x_1, ..., x_m] and labels [y_1, ..., y_m]
-    Compute the momentum formula : v ← αv − ϵ∇_θn(1/m ∑^m_i=1 L(f(x^(i);θ_n),y^(i)))
+    Compute the momentum formula : v ← αv − ϵ∇_θ(1/m ∑^m_i=1 L(f(x^(i);θ),y^(i)))
     Update θ
     t += 1
 ```
@@ -93,7 +93,27 @@ while t <= e:
 So, the algorithm is a basic optimization algorithm. So we create a batch of m values with their corresponding labels.
 Then we apply the momentum formula seen above, and finally update $\theta$.
 We then repeat this process until the while condition is satisfied. We can of course change this condition so that it can meet our expectations.  
+The difference between Nesterov momentum and standard momentum is where the gradient is evaluated. Here, the gradient is evaluated after the current "velocity" applied.
 
+#### 1.3.5 Algorithm with Nesterov momentum
+
+```
+Define ϵ, define α ∈ [0;1)
+Define t = 0, define e
+
+Initialize θ
+Initialize v
+
+while θ not converged:
+    Create a minibatch of m values from training set [x_1, ..., x_m] and labels [y_1, ..., y_m]
+    Compute θ˜ ← θ + αv
+    Compute the momentum formula : v ← αv − ϵ∇_θ˜(1/m ∑^m_i=1 L(f(x^(i);θ˜),y^(i)))
+    Update θ
+```
+
+#### 1.3.6 Explanations 
+
+This algorithm is a copy of basic momentum algorithm. We just add $\alpha v$ before computing the gradient.
 
 ## 2. Adaptative Moment Estimation (ADAM)
 
@@ -185,7 +205,13 @@ We just applied the mathematical aspect.
 
 
 
-## 4 Conclusion
+## 4 Vizualization  
+
+[](https://shaoanlu.files.wordpress.com/2017/05/val_acc.png)
+
+_Loss of RMSProp vs Adam vs SGD vs SGD with momentum vs SGD with Nesterov on 300 epochs, nadam is not very interessant_.
+
+## 5 Conclusion
     
 So we studied two of the most popular algorithms: SGD and Adam. These algorithms allowed us to discover notions such as momentum, which was very useful to make the SGD algorithm faster, but also to reduce the variance of this algorithm. Through the Adam algorithm, we discovered what the Adaptive Learning Rate was. This algorithm, widely used by AdaGrad and RMSProp, allows us to change the learning rate at each step. We also discovered what the Running Average was and what it allowed. All these algorithms allowed us to better understand the optimization algorithm Adam. 
 
