@@ -5,7 +5,7 @@ date:   2020-08-29 00:08:00 -0200
 categories: algorithm
 ---
 
-# Optimization algorithms  
+# Overview of optimization algorithms  
 
 
 
