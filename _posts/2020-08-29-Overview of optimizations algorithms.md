@@ -42,10 +42,16 @@ $$ v \leftarrow \alpha v - \epsilon \nabla_{\theta_{n}} \left( \frac{1}{m} \sum_
 To update $\theta$, we just have to do :  
 $$ \theta_{n+1} \leftarrow \theta_{n} + v $$  
 
+### 1.2 Nesterov momentum
 
-### 1.2 Stochastic Gradient Descent : Algorithm  
+Nesterov's momentum is a variant of the momentum algorithm invented by Sutskever. The strong point of this algorithm is time, we can get good results faster than the basic momentum, with similar or better results.
 
-#### 1.2.1 Algorithm without momentum
+With this algorithm, $v$ is defined such as :  
+$$ v \leftarrow \alpha v - \epsilon \nabla_{\theta_{n}} [\left( \frac{1}{m} \sum_{i=1}^{m} L(f(x^{(i)}; \theta_{n} + \alpha v), y^{(i)}) \right)] $$  
+
+### 1.3 Stochastic Gradient Descent : Algorithm  
+
+#### 1.3.1 Algorithm without momentum
 
 ```
 Define ϵ
@@ -58,7 +64,7 @@ while t <= e:
     Update θ = θ - ϵg
 ```  
 
-#### 1.2.2 Explanations
+#### 1.3.2 Explanations
 
 This algorithm is based on the basic principle of an optimization algorithm. Batches of size $m$ are created and then used to minimize the Cost function. 
 The learning rate $\epsilon$ therefore allows us to give "importance" to the gradient: it is therefore useful to have a learning rate set at the right value. However, it is common to modify this learning rate during gradient descent.  
@@ -66,7 +72,7 @@ The learning rate $\epsilon$ therefore allows us to give "importance" to the gra
 For a large enough dataset, SGD may converge to within some fixed tolerance of its final test set error before it has processed the entire training set.  
 So, it's important to measure the convergence rate. The formula $J(\theta) - min_{\theta}J(\theta)$ can measure this rate.
 
-#### 1.2.3 Algorithm with momentum
+#### 1.3.3 Algorithm with momentum
 
 ```
 Define ϵ, define α ∈ [0;1)
@@ -82,7 +88,7 @@ while t <= e:
     t += 1
 ```
 
-#### 1.2.4 Explanations  
+#### 1.3.4 Explanations  
 
 So, the algorithm is a basic optimization algorithm. So we create a batch of m values with their corresponding labels.
 Then we apply the momentum formula seen above, and finally update $\theta$.
@@ -175,9 +181,9 @@ First, we need to initialize the 1st and the 2nd moment. Like the other algorith
 Now, we can appli a global update to our parameters.
 We just applied the mathematical aspect.
 
-## 3 Vizualization
+## 3 Advantages & Disadvantages  
 
-![img.gif](https://mlfromscratch.com/content/images/2019/12/saddle.gif)
+
 
 ## 4 Conclusion
     
