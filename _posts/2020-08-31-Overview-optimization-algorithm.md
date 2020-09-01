@@ -119,7 +119,7 @@ AdaGrad is a gradient optimization algorithm that adapts the learning rate. It c
 With the SGD algorithm, we made an update for every $\theta$ using the same learning rate. Conversely, AdaGrad changes the learning rate for every $\theta_{i}$ parameter at time $t$.
 
 To define the Adaptative Learning Rate, we are going to define the gradient with $g$ such as : 
-$$ g_{t,i} \leftarrow \nabla_{t} J(\theta_{t,i}) $$
+$$ g_{t,i} \leftarrow \nabla_{\theta_t} J(\theta_{t,i}) $$
 
 With this algorithm we have to modify our learning rate every $t$. So, we can change $\eta$ by : 
 $$ \frac{\eta}{\sqrt{G_{t,ii} + \epsilon}} $$
