@@ -23,7 +23,7 @@ C++
 Github : <a href="https://github.com/AIDRI" target="_blank">AIDRI</a>  
 Kaggle : <a href="https://www.kaggle.com/adrieni" target="_blank">Adrien I</a>  
 Codeforces : <a href="https://codeforces.com/" target="_blank">AIDRI</a>  
-Mathraining : <a href="https://www.mathraining.be/" target="_blank">Adrien I****</a>
+Mathraining : <a href="https://www.mathraining.be/" target="_blank">Adrien I****</a>  
 Reddit : <a href="https://www.reddit.com/user/Adrien_I" target="_blank">Adrien_I</a>  
 Twitter : <a href="https://twitter.com/AIDRI_" target="_blank">AIDRI_</a>  
 Discord : Adrien I#4592  
