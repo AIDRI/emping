@@ -4,18 +4,20 @@ avatar: true
 permalink: /
 ---
 ## Hello World
-In a few words, I am a young French "developer" who is passionate about Artificial Intelligence and more particularly everything related to computer vision.
+In a few words, I am a young French "developer" who is passionate about Artificial Intelligence and more particularly everything related to computer vision. Recently, I discovered Reinforcement Learning, and I was able, for example, to create a Q-Learning algorithm (Simple, Dueling and Tabular) using only numpy.  
 
 ---
 
-## Programming languages
-Python : 5/5 (AI creation from scratch (using only numpy), using Tensorflow, Pytorch)
-C : 4/5 (Algorithm)
-Mathlab : 3 / 5 (3D visualization, linear algebra, better understanding of AI models)
+## Programming languages  
+Python : 5/5 (AI creation from scratch (using only numpy), using Tensorflow, Pytorch)  
+C : 4/5 (Algorithm)  
+Mathlab : 3 / 5 (3D visualization, linear algebra, better understanding of AI models)  
 
-In progress :
-Julia
-C++
+In progress :  
+Julia  
+C++  
+
+---
 
 ## Website
 Github : <a href="https://github.com/AIDRI" target="_blank">AIDRI</a>  
