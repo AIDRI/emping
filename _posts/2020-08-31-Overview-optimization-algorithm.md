@@ -5,10 +5,6 @@ date:   2020-08-29 00:08:00 -0200
 categories: algorithm
 ---
 
-# Overview of optimization algorithms  
-
-
-
 > In this post, we will try to understand different optimizations algorithms and these different variants.   
 
 > We will focus on two types of optimizations: SGD with the use of momentum, and Adam with differents Adaptative LR algorithm like RMSProp, AdaGrad. Momentum is also useful for Adam's optimization.  
