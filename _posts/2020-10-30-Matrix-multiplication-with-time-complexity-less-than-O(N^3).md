@@ -35,9 +35,15 @@ C_{21} & C_{22}
 
 ## 1. Basics  
 
+On this part, we are going to see the basics of matrix multiplication, and fix the problematic.
+
 Matrix multiplication is a very simple operation in linear algebra.  
 The naive method of a multiplication of matrices would like us to proceed in this way :  
 $C_{11} = A_{11} \times B_{11} + A_{12} \times B_{21}$  
 $C_{12} = A_{11} \times B_{12} + A_{12} \times B_{22}$  
 $C_{21} = A_{21} \times B_{11} + A_{22} \times B_{21}$  
 $C_{22} = A_{21} \times B_{12} + A_{22} \times B_{22}$  
+Here, we use 8 operations.  
+This method is very easy to compute by hands, but when we have big matrices, this algorithm is too slow to be used. So we need to found an algorithm with a complexity lower than $O(N^3)$.  
+
+## 2. Strassen algorithm : $O(N^{2.81})  
