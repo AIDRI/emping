@@ -21,7 +21,7 @@ $$A =
 A11 & A12 \\  
 A21 & A22 
 \end{bmatrix} 
-and B = 
+and\ B = 
 \begin{bmatrix} 
 B11 & B12 \\  
 B21 & B22 
