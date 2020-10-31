@@ -16,7 +16,11 @@ b
 > Some characters can bug on the phone version.
 
 For the following algorithms, we will base ourselves on two matrix $A$ and $B$ such as :
-$A = \begin{bmatrix} A11 & A12 \\ A21 & A22 \end{bmatrix}$
+$$A = 
+\begin{bmatrix} 
+A11 & A12 \\  
+A21 & A22 
+\end{bmatrix}$$
 
 ## 1. Basics  
 
