@@ -26,6 +26,12 @@ and\ B =
 B11 & B12 \\  
 B21 & B22 
 \end{bmatrix} $$
+The objective is to get a final matrix $C$ such as :
+$$C = 
+\begin{bmatrix} 
+C11 & C12 \\  
+C21 & C22 
+\end{bmatrix}$$
 
 ## 1. Basics  
 
