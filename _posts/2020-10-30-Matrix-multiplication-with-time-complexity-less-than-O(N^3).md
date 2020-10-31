@@ -46,4 +46,4 @@ $C_{22} = A_{21} \times B_{12} + A_{22} \times B_{22}$
 Here, we use 8 operations.  
 This method is very easy to compute by hands, but when we have big matrices, this algorithm is too slow to be used. So we need to found an algorithm with a complexity lower than $O(N^3)$.  
 
-## 2. Strassen algorithm : $O(N^{2.81})  
+## 2. Strassen algorithm : $O(N^{2.81})$  
