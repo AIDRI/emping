@@ -18,22 +18,26 @@ categories: algorithm
 For the following algorithms, we will base ourselves on two matrix $A$ and $B$ such as :
 $$A = 
 \begin{bmatrix} 
-A11 & A12 \\  
-A21 & A22 
+A_{11} & A_{12} \\  
+A_{21} & A_{22} 
 \end{bmatrix} 
 and\ B = 
 \begin{bmatrix} 
-B11 & B12 \\  
-B21 & B22 
-\end{bmatrix} $$
+B_{11} & B_{12} \\  
+B_{21} & B_{22} 
+\end{bmatrix} $$  
 The objective is to get a final matrix $C$ such as :
 $$C = 
 \begin{bmatrix} 
-C11 & C12 \\  
-C21 & C22 
+C_{11} & C_{12} \\  
+C_{21} & C_{22} 
 \end{bmatrix}$$
 
 ## 1. Basics  
 
 Matrix multiplication is a very simple operation in linear algebra.  
 The naive method of a multiplication of matrices would like us to proceed in this way :  
+$C_{11} = A_{11} \times B_{11} + A_{12} \times B_{21}$  
+$C_{12} = A_{11} \times B_{12} + A_{12} \times B_{22}$  
+$C_{21} = A_{21} \times B_{11} + A_{22} \times B_{21}$  
+$C_{22} = A_{21} \times B_{12} + A_{22} \times B_{22}$  
