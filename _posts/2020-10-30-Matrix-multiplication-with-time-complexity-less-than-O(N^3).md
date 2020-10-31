@@ -22,7 +22,7 @@ A11 & A12 \\
 A21 & A22 
 \end{bmatrix}$$
 
-## 1. Basics  
+## 1. Basics  p  
 
 Matrix multiplication is a very simple operation in linear algebra.  
 The naive method of a multiplication of matrices would like us to proceed in this way :  
