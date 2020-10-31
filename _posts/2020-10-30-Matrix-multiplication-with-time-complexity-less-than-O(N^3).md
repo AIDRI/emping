@@ -26,7 +26,7 @@ and\ B =
 B_{11} & B_{12} \\  
 B_{21} & B_{22} 
 \end{bmatrix} $$  
-The objective is to get a final matrix $C$ such as :
+The objective is to get a final matrix $C$ such as :  
 $$C = 
 \begin{bmatrix} 
 C_{11} & C_{12} \\  
