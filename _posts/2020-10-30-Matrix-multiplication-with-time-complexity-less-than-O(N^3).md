@@ -47,3 +47,16 @@ Here, we use 8 operations.
 This method is very easy to compute by hands, but when we have big matrices, this algorithm is too slow to be used. So we need to found an algorithm with a complexity lower than $O(N^3)$.  
 
 ## 2. Strassen algorithm : $O(N^{2.81})$  
+
+So Strassen wanted to simplify this naive algorithm by using a new combination of multiplications.  
+We thus go from 8 to 7 multiplications.  
+First, we have to calculate M seven times :  
+$E_1 = (A_{12} - A_{22}) (B_{21} + B_{22})$  
+$E_2 = (A_{11} - A_{22}) (B_{11} + B_{22})$  
+$E_3 = (A_{11} - A_{21}) (B_{11} + B_{12})$  
+$E_3 = (A_{11} + A_{12}) B_{22}$  
+$E_3 = A_{11} (B_{12} - B_{22})$  
+$E_3 = A_{22} (B_{21} - B_{11})$  
+$E_3 = (A_{21} - A_{22}) B_{11}$  
+
+And now, we can compute each C :  
