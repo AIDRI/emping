@@ -68,5 +68,5 @@ $C_{21} = E_2 + E_4$
 $C_{22} = E_1 - E_2 + E_3 + E_6$
 
 We have therefore calculated the matrix C.  
-With 7 multiplications and 18 additions, we can think that the algorithm does not perform well compared to the naive algorithm.  
+With 7 multiplications and 18 additions / substractions, we can think that the algorithm does not perform well compared to the naive algorithm.  
 We will therefore prove the opposite by generalizing this algorithm for a matrix $N \times N$.
