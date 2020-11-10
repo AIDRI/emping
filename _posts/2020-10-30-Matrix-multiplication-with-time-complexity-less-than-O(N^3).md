@@ -48,7 +48,7 @@ This method is very easy to compute by hands, but when we have big matrices, thi
 
 ## 2. Strassen algorithm : $O(N^{2.81})$  
 
-### 2.1 Algorithme pour n = 2  
+### 2.1 Algorithm for $n = 2$  
 
 So Strassen wanted to simplify this naive algorithm by using a new combination of multiplications.  
 We thus go from 8 to 7 multiplications.  
@@ -62,11 +62,18 @@ $E_6 = (A_{21} - A_{11}) (B_{11} + B_{12})$
 $E_7 = (A_{12} - A_{22}) (B_{21} + B_{22})$  
 
 And now, we can compute each C :  
-$C_{11} = E_1 + E_4 - E_5 + E_7$
-$C_{12} = E_3 + E_5$
-$C_{21} = E_2 + E_4$
-$C_{22} = E_1 - E_2 + E_3 + E_6$
+$C_{11} = E_1 + E_4 - E_5 + E_7$  
+$C_{12} = E_3 + E_5$  
+$C_{21} = E_2 + E_4$  
+$C_{22} = E_1 - E_2 + E_3 + E_6$  
 
 We have therefore calculated the matrix C.  
 With 7 multiplications and 18 additions / substractions, we can think that the algorithm does not perform well compared to the naive algorithm.  
-We will therefore prove the opposite by generalizing this algorithm for a matrix $N \times N$.
+We will therefore prove the opposite by generalizing this algorithm for a matrix $N \times N$.  
+
+### 2.2 Generalization  
+
+We will now use the algorithm seen above, but recursively.  
+Before that, we must partition our C matrix into four blocks $C_{11}, C_{12}, C_{21}, C_{22}$ of size $N/2 \times N/2$.  
+
+
