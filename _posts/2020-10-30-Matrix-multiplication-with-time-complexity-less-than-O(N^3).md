@@ -76,4 +76,31 @@ We will therefore prove the opposite by generalizing this algorithm for a matrix
 We will now use the algorithm seen above, but recursively.  
 Before that, we must partition our C matrix into four blocks $C_{11}, C_{12}, C_{21}, C_{22}$ of size $N/2 \times N/2$.  
 
-
+$$C_{11} = 
+\begin{bmatrix} 
+C_{11} & C_{12} & ... & C_{1, N/2}\\  
+C_{21} & ... & ... & ...\\  
+... & ... & ... & ...\\  
+C_{N/2, 1} & ... & ... & C_{N/2, N/2}\\  
+\end{bmatrix} 
+and\ C_{12} = 
+\begin{bmatrix} 
+C_{1, N/2 + 1} & ... & ... & C_{1, N}\\  
+... & ... & ... & ...\\  
+... & ... & ... & ...\\  
+C_{N/2, N/2 + 1} & ... & ... & C_{N/2, N}\\  
+\end{bmatrix} $$  
+$$C_{21} = 
+\begin{bmatrix} 
+C_{N/2 + 1, 1} & ... & ... & C_{N/2 + 1, N/2}\\  
+... & ... & ... & ...\\  
+... & ... & ... & ...\\  
+C_{N, 1} & ... & ... & C_{N, N/2}\\  
+\end{bmatrix} 
+and\ C_{22} = 
+\begin{bmatrix} 
+C_{N/2 + 1, N/2 + 1} & ... & ... & C_{N/2 + 1, N}\\  
+... & ... & ... & ...\\  
+... & ... & ... & ...\\  
+C_{N, N/2 + 1} & ... & ... & C_{N, N}\\  
+\end{bmatrix} $$  
