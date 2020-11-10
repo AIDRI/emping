@@ -110,7 +110,7 @@ Now, we can do the same thing on A and B.
 I think we can now see what Strassen wanted to do.  
 From $2^n$, we get sub matrices $A_{ij}, B_{ij}, C_{ij}$ of size $2^{n-1}$. So there is indeed a recursive algorithm.  
 
-The complexity of this algorithm is : $O(N^{log_2 7+o(1)}$ or $O(N^{2.8074...})$.  
+The complexity of this algorithm is : $O(N^{log_2 7+o(1)})$ or $O(N^{2.8074...})$.  
 
 ### 2.3 Improvements and usage  
 
