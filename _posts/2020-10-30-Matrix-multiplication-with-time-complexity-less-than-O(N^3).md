@@ -83,7 +83,7 @@ C_{21} & ... & ... & ...\\
 ... & ... & ... & ...\\  
 C_{N/2, 1} & ... & ... & C_{N/2, N/2}\\  
 \end{bmatrix} 
-and\ C_{12} = 
+C_{12} = 
 \begin{bmatrix} 
 C_{1, N/2 + 1} & ... & ... & C_{1, N}\\  
 ... & ... & ... & ...\\  
@@ -97,10 +97,21 @@ C_{N/2 + 1, 1} & ... & ... & C_{N/2 + 1, N/2}\\
 ... & ... & ... & ...\\  
 C_{N, 1} & ... & ... & C_{N, N/2}\\  
 \end{bmatrix} 
-and\ C_{22} = 
+C_{22} = 
 \begin{bmatrix} 
 C_{N/2 + 1, N/2 + 1} & ... & ... & C_{N/2 + 1, N}\\  
 ... & ... & ... & ...\\  
 ... & ... & ... & ...\\  
 C_{N, N/2 + 1} & ... & ... & C_{N, N}\\  
 \end{bmatrix} $$  
+
+Now, we can do the same thing on A and B.  
+
+I think we can now see what Strassen wanted to do.  
+From $2^n$, we get sub matrices $A_{ij}, B_{ij}, C_{ij}$ of size $2^{n-1}$. So there is indeed a recursive algorithm.  
+
+The complexity of this algorithm is : $O(N^{log_2 7+o(1)}$ or $O(N^{2.8074...})$.  
+
+### 2.3 Improvements and usage  
+
+
