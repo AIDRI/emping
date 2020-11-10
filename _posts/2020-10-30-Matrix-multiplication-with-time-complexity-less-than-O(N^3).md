@@ -51,12 +51,14 @@ This method is very easy to compute by hands, but when we have big matrices, thi
 So Strassen wanted to simplify this naive algorithm by using a new combination of multiplications.  
 We thus go from 8 to 7 multiplications.  
 First, we have to calculate M seven times :  
-$E_1 = (A_{12} - A_{22}) (B_{21} + B_{22})$  
-$E_2 = (A_{11} - A_{22}) (B_{11} + B_{22})$  
-$E_3 = (A_{11} - A_{21}) (B_{11} + B_{12})$  
-$E_3 = (A_{11} + A_{12}) B_{22}$  
+$E_1 = (A_{11} - A_{22}) (B_{11} + B_{22})$  
+$E_3 = (A_{21} + A_{22}) B_{11}$  
 $E_3 = A_{11} (B_{12} - B_{22})$  
 $E_3 = A_{22} (B_{21} - B_{11})$  
-$E_3 = (A_{21} - A_{22}) B_{11}$  
+$E_3 = (A_{11} + A_{12}) B_{22}$  
+$E_2 = (A_{21} - A_{11}) (B_{11} + B_{12})$  
+$E_3 = (A_{12} - A_{22}) (B_{21} + B_{22})$  
 
 And now, we can compute each C :  
+$C_{11} = E_1 + E_4 - E_4 + E_6$
+$C_{12} = E_1 + $
