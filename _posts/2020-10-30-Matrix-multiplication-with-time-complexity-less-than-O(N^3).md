@@ -117,3 +117,7 @@ The complexity of this algorithm is : $O(N^{log_2 7+o(1)})$ or $O(N^{2.8074...})
 As we have seen, it is preferable to use a naive algorithm for matrix calculations with a small n ($2^n$ with $n < 9$).  
 To optimize a multiplication with a very large n or even very very large n, we can therefore start by using the Strassen algorithm, to finish with the naive agorithm.  
 In 1970, Winograd improved this algorithm, from 18 to 15 additions / subtractions. Winograd, Hopcroft and Kerr were able to demonstrate that it was impossible to multiply $2 \times 2$ matrices with less than 7 multiplications.
+
+
+## 3. Coppersmith & Winograd algorithm $O(N^2
+3754)$  
