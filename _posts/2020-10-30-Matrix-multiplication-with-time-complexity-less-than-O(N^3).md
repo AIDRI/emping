@@ -133,6 +133,7 @@ Let's define $\lambda$, an indeteminate value.
 Let's define $O(\lambda)$, the error term.  
 
 The trilinear form of the CW is the following one :  
-$\lambda^{-2} \times \sum^q_{i=1} (x_0 + \lambda x_i)(y_0 + \lambda y_i)(z_0 + \lambda z_i) - \lambda^{-3} \times (x_0 + \lambda^2 \sum^q_{i=1}x_i)(y_0 + \lambda^2 \sum^q_{i=1}y_i)(z_0 + \lambda^2 \sum^q_{i=1}z_i) + (\lambda^{-3} - q \lambda^{-2}) \times (x_0 + \lambda^3 x_{q+1})(y_0 + \lambda^3 y_{q+1})(z_0 + \lambda^3 x_{z+1})$  
+$\lambda^{-2} \times \sum^q_{i=1} (x_0 + \lambda x_i)(y_0 + \lambda y_i)(z_0 + \lambda z_i) - \lambda^{-3} \times (x_0 + \lambda^2 \sum^q_{i=1}x_i)(y_0 + \lambda^2 \sum^q_{i=1}y_i)(z_0 + \lambda^2 \sum^q_{i=1}z_i) + $  
+$(\lambda^{-3} - q \lambda^{-2}) \times (x_0 + \lambda^3 x_{q+1})(y_0 + \lambda^3 y_{q+1})(z_0 + \lambda^3 x_{z+1})$  
 $=$  
 $x$
