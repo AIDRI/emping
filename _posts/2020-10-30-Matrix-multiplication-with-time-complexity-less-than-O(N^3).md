@@ -124,4 +124,5 @@ In 1970, Winograd improved this algorithm, from 18 to 15 additions / subtraction
 ## 3.1 Definitions  
 
 **Definition 1** : Let $V, W, X$, three vector spaces over the same field $F$, which is a function $B : V \times W \rightarrow X$ such that for all $w \in W$, the map $B_w$, $v \rightarrow B(v,w)$ is a linear map from $V$ to $X$, and for all $v \in V$, the map $B_v$, $w \rightarrow B(v,w)$ is a linear map from $W$ to $X$.  
-**Definiton 2** : A trilinear form of a matrix multiplication is the form $$\sum_{i,j \in [n]} \sum_{k \in n} x_{ik}y_{kj}z_{ij}$$
+**Definiton 2** : A trilinear form of a matrix multiplication written $z_{ij} = \sum_{k \in n} x_{i,k}j_{k,j}$ for all $i, j \in [n]$ is the form $\sum_{i,j \in [n]} \sum_{k \in n} x_{ik}y_{kj}z_{ij}$  
+
