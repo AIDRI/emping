@@ -121,8 +121,18 @@ In 1970, Winograd improved this algorithm, from 18 to 15 additions / subtraction
 
 ## 3. Coppersmith & Winograd algorithm $O(N^{2,404})$  
 
-## 3.1 Definitions  
+### 3.1 Definitions  
 
 **Definition 1** : Let $V, W, X$, three vector spaces over the same field $F$, which is a function $B : V \times W \rightarrow X$ such that for all $w \in W$, the map $B_w$, $v \rightarrow B(v,w)$ is a linear map from $V$ to $X$, and for all $v \in V$, the map $B_v$, $w \rightarrow B(v,w)$ is a linear map from $W$ to $X$.  
 **Definiton 2** : A trilinear form of a matrix multiplication written $z_{ij} = \sum_{k \in n} x_{i,k}j_{k,j}$ for all $i, j \in [n]$ is the form $\sum_{i,j \in [n]} \sum_{k \in n} x_{ik}y_{kj}z_{ij}$  
 
+### 3.2 Coppersmith & Winnograd algorithm  
+
+First, we're going to define the algorithm.  
+Let's define $\lambda$, an indeteminate value.  
+Let's define $O(\lambda)$, the error term.  
+
+The trilinear form of the CW is the following one :  
+$\lambda^{-2} \times \sum^q_{i=1} (x_0 + \lambda x_i)(y_0 + \lambda y_i)(z_0 + \lambda z_i) - \lambda^{-3} \times (x_0 + \lambda^2 \sum^q_{i=1}x_i)(y_0 + \lambda^2 \sum^q_{i=1}y_i)(z_0 + \lambda^2 \sum^q_{i=1}z_i) + (\lambda^{-3} - q \lambda^{-2}) \times (x_0 + \lambda^3 x_{q+1})(y_0 + \lambda^3 y_{q+1})(z_0 + \lambda^3 x_{z+1})$  
+$=$  
+$x$
