@@ -107,7 +107,7 @@ This algorithm is a copy of basic momentum algorithm. We just add $\alpha v$ bef
 
 ### 2.1 Adaptative Learning Rate
 
-From now on, the learning rate will be defined by $\eta$ (êta).
+From now on, the learning rate will be defined by $\eta$ (êta). $\epsilon$ will now be a constant to prevent any division by zero.
 
 #### 2.1.1 Define the Adaptative LR with AdaGrad  
 
