@@ -188,11 +188,9 @@ First, we need to initialize the 1st and the 2nd moment. Like the other algorith
 Now, we can appli a global update to our parameters.
 We just applied the mathematical aspect.
 
-## 3 Vizualisation
+## 3 Code
 
-<div style="text-align:center"><image src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png" /></div>  
-
-_Overview of the cost function curves for : AdaGrad, RMSProp, SGDNesterov and Adam (AdaDelta is not very interresting for us now)_
+You can find the code associated with the algorithms explored here on [this github repository](https://github.com/AIDRI/optimizer-using-numpy).
 
 ## 4 Conclusion
     
