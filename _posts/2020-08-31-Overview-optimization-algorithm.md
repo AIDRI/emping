@@ -40,7 +40,7 @@ $$ \theta_{n+1} \leftarrow \theta_{n} + v $$
 
 ### 1.2 Nesterov momentum
 
-Nesterov's momentum is a variant of the momentum algorithm invented by Sutskever. The strong point of this algorithm is time, we can get good results faster than the basic momentum, with similar or better results.
+Nesterov's momentum is a variant of the momentum algorithm invented by Sutskever in 2013 (Sutskever et al. (2013)), based on the Nesterov's accelerated gradient method (Nesterov, 1983, 2004). The strong point of this algorithm is time, we can get good results faster than the basic momentum, with similar or better results. Here, the gradient is evaluated before the current velocity apply. The momentum try here to add a correction factor.
 
 With this algorithm, $v$ is defined such as :  
 $$ v \leftarrow \alpha v - \epsilon \nabla_{\theta_{n}} [\left( \frac{1}{m} \sum_{i=1}^{m} L(f(x^{(i)}; \theta_{n} + \alpha v), y^{(i)}) \right)] $$  
@@ -101,7 +101,7 @@ $\ \ \ \ Update\ \theta$
 
 #### 1.3.6 Explanations 
 
-This algorithm is a copy of basic momentum algorithm. We just add $\alpha v$ before computing the gradient.
+The algorithm is nearly the same as the algorithm using simple momentum. However, we notice that we have add an intermediate update ($\hat \theta$). 
 
 ## 2. Adaptative Moment Estimation (ADAM)
 
