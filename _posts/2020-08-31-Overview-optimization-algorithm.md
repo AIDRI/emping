@@ -13,7 +13,7 @@ categories: algorithm
 
 > You can find other posts on my [blog](https://aidri.github.io/emping/blog/).  
 
-> Some characters can bug on the phone version.
+> You can find the code [here](https://github.com/AIDRI/optimizer-using-numpy)
 
 ## 1. Stochastic Gradient Descent (SGD)  
 
