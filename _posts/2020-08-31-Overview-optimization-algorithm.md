@@ -196,6 +196,6 @@ You can find the code associated with the algorithms explored here on [this gith
     
 So we studied two of the most popular algorithms: SGD and Adam. These algorithms allowed us to discover notions such as momentum, which was very useful to make the SGD algorithm faster, but also to reduce the variance of this algorithm. Through the Adam algorithm, we discovered what the Adaptive Learning Rate was. This algorithm, widely used by AdaGrad and RMSProp, allows us to change the learning rate at each step. We also discovered what the Running Average was and what it allowed. All these algorithms allowed us to better understand the optimization algorithm Adam. 
 
-**Thanks you for reading my post, if you find any inconsistencies or errors, do not hesitate to let me know at ad.israel38@gmail.com.**
+**Thanks you for reading my post, if you find any inconsistencies or errors, do not hesitate to let me know.**
 
 **Author : Adrien I.**
